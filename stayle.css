@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.content{
+    
+display: grid;
+gap: 1%
+}
+.title-center{
+    text-align: center;
+}
+.main-img{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+}
+h1{
+    color:  black   ;
+    font-size: 35px;
+    margin-bottom: 80px;
+}
+
+
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 650px;
+    gap: 10px;
+
+}
+
+.info{
+    background-color:white;
+    padding: 5px;
+    border: 1px solid rgb(36, 38, 56);
+    border-radius: 10px;
+    
+}
+input{
+    
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    width: 80%;
+    border-radius: 10px 0 0 10px;
+    
+ }
+input,button{
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    
+}
+ button{
+     border-radius: 10px ;
+    padding: 12px 18px ;
+    background-color: rgb(232, 232, 232);
+    cursor: pointer;
+    color:  rgb(36, 38, 56);
+} 
+button:hover{
+    background-color: rgb(215, 215, 215)
+}
+
+.resolt{
+    height: 300px;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 18px;
+
+}
+
+
+p.pargraf{
+    color: rgb(4, 4, 4);
+    font-size: 12px;
+    font-weight: 500px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+@media screen and (max-width: 856px) {
+    body{  display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 100vh;  }
+        .title-center {
+        margin-top: 20px; 
+    }
+
+    .main-img {
+        width: 50px; 
+        height: 50px;
+    }
+
+    h1 {
+        font-size: 20px; 
+    }
+
+    #footer {
+        margin-top: 20px;
+        margin: 10px 10px;
+        justify-content: center;
+    }
+
+    .info {
+        width: 90%; 
+        gap: 10px;
+    }
+
+    .pargraf {
+        font-size: 10px; 
+    }
+}
+
+
+
+/* Base styles */
+
+/* Your existing CSS styles here */
+
+/* Media query for screens up to 600px */
+/* Base styles */
+
+/* Your existing CSS styles here */
+
+/* Media query for screens up to 600px */
+@media screen and (max-width: 900px) {
+    .info {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    input {
+        width: calc(100% - 20px); 
+        margin-right: 10px; 
+    }
+
+    button {
+        width: calc(100%); 
+        padding: 6px;
+        height: 40px;
+        border-radius: 4px;
+    }
+} 
